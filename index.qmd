@@ -181,13 +181,7 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 - Twenty-four Japanese learners of English were recruited at a Japanese university. 
 - English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). 
 
-```{r}
-#| fig-align: center
-#| echo: false
-#| out.width: "90%"
-knitr::include_graphics("fig/Fig_prof.png")
-```
-
+![](fig/Fig_prof.png)
 
 ## Procedures
 
