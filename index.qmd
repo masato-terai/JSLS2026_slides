@@ -171,14 +171,14 @@ Second language proficiency was operationalized using vocabulary size scores.
 
 ## Research Hypotheses
 
-- (1) Reaction times will be faster for words presented in typical colors than in unrelated colors, particularly when a sentence is presented immediately before the Stroop task
+- (1) Reaction times will be faster for words presented in typical colors than in unrelated colors, particularly when a sentence is presented immediately before the Stroop task, and in their L1 (JPN)
 
 - (2) The magnitude of the Stroop effect will be modulated by L2 proficiency during L2 task performance.
 
 ## Participants
-- Twenty-six Japanese learners of English were recruited at a Japanese university. 
+- Twenty-four Japanese learners of English were recruited at a Japanese university. 
 
-- English proficiency was measured using a yes-no vocabulary size test (Meara & Miralpeix, 2015). The vocabulary test scores indicated that participants’ English proficiency ranged from low to intermediate, which was comparable to the participants in Terai (2026)
+- English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). The vocabulary test scores indicated that participants’ English proficiency ranged from low to intermediate, which was comparable to the participants in Terai (2026)
 
 ## Procedures
 
@@ -204,50 +204,109 @@ Second language proficiency was operationalized using vocabulary size scores.
 # Analysis
 
 ## Data Exclusion
-Data that were excluded from the analyses (checked separately for each language):
-(Entire participants excluded)
-All data from participants whose overall accuracy in the Stroop task (separately for each language) was below 80% (confirmed at both the sentence and word levels).
-All data from participants whose accuracy on the comprehension check questions for the sentence-level task was below 50%.
-All data from participants who had taken part in a previous experiment.
-All data from participants who did not meet the criterion of “native language = Japanese” and “the most dominant language = Japanese.”
-(Partial data excluded)
-Trials whose reaction times deviated from the median by more than ±3 median absolute deviations.
-Reaction-time data shorter than 200 ms.
-Filler items.
-Items corresponding to words that participants reported as “unknown” on the vocabulary test.
-Items whose response in the word typicality evaluation task was “delete.”
-Items whose response in the sentence typicality evaluation task was either “Matches with Picture 2” or “Matches with neither.”
-Two participants (79764902, 79763909) were excluded because they had participated the similar experiments that the author conducted before.
 
-## Datatreatment
+- All data from participants whose overall accuracy in the Stroop task (separately for each language) was below 80% (confirmed at both the sentence and word levels).
 
-- color-typicality was adusted at item and participant level
+- Trials whose reaction times deviated from the median by more than + 3 median absolute deviations.
+
+- Reaction-time data shorter than 200 ms.
+
+- incorrect response
 
 ## Bayesian mixedeffects regression models
-- Reaction times in the Stroop task were used as the dependent variable, and
-only correct responses were included in the analysis. The independent variables included color typicality (typical vs. unrelated), task type (sentence-context vs. word-only), task language (L1 vs. L2), scaled vocabulary size scores, and their interactions. 
-- Random intercepts and random slopes were specified for participants and experimental items.
+- Dependent variable: Reaction times in the Stroop task
+
+- Independent variables:  color typicality (typical vs. unrelated), task type (sentence-context vs. word-only), task language (L1 vs. L2), scaled vocabulary size scores, and their interactions. 
+
+- Random intercepts and random slopes: participants- and experimental items-levels
 
 # Results
 
+## Hypothesis 1
+
+- The difference between typical and unrelated was larger in L2 (ENG).
+
+    - Main Effect of Task Type was robust: regardless of task language and word typicality, reaction times were faster in word-level Stroop task.
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "90%"
+knitr::include_graphics("fig/FigA.png")
+```
+
+## Hypothesis 1
+
+- contrasts of the estimated marginal means showed that the predicted medians were generally faster in the typical color condition than in the unrelated color condition. 
 
 
-## Assessing the Model
+- Stroop effects tend to be larger in L1
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "90%"
+knitr::include_graphics("fig/FigC.png")
+```
+
+## Hypothesis 2
+
+- Stroop effects tend to be larger as the test takers' vocabulary size increases.
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "90%"
+knitr::include_graphics("fig/FigB.png")
+```
+
+## Hypothesis 2
+
+- Stroop effects tend to be larger as the test takers' vocabulary size increases.
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "90%"
+knitr::include_graphics("fig/FigD.png")
+```
 
 
 # Discussion
 ## Hypothesis 1
-- Reaction times tended to be faster in the typical color condition than in the unrelated color condition, regardless of task type and task language. 
+::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
+Reaction times were faster for words presented in typical colors than in unrelated colors, ~~particularly when a sentence is presented immediately before the Stroop task,and in their L1 (JPN)~~
+:::
 
-- contrasts of the estimated marginal means showed that the predicted medians were generally faster in the typical color condition than in the unrelated color condition across the four task-language combinations. 
+- There was Stroop effect in word-only task in L1
 
-- However, the magnitude of these differences was similar across conditions. Thus, Hypothesis 1 was only partially supported. 
+    - One possible reason for this discrepancy is that in the word-only task, in which the target word was presented in black font immediately before the Stroop phase. This prior presentation may have facilitate semantic processing compared with a task without such a presentation phase. 
 
-- Although responses were generally faster for words presented in typical colors than for words presented in unrelated colors, there was no clear evidence that this effect was larger in the sentence-context condition than in the word-only condition. These results suggest that typical color information may be activated even in the absence of a sentence context. 
+- The Stroop effect was larger in L2 than in L1 in word-only Stroop task. 
 
-- This finding is not fully consistent with Terai (in press), which reported no strong evidence for color simulation in L1. One possible reason for this discrepancy is that in the word-only task, in which the target word was presented in black font immediately before the Stroop phase. This prior presentation may have facilitate semantic processing compared with a task without such a presentation phase. One result that was consistent with Terai (in press) was that the Stroop effect was larger in L2 than in L1 in word-only Stroop task. Participants may have focused more strongly on reading the words in their L2, a language in which they were less proficient. This may have led to stronger activation of the color.
+    - consistent with Terai (2026) 
+    
+    - Participants may have focused more strongly on reading the words in their L2, a language in which they were less proficient. This may have led to stronger activation of the color.
+
+- This finding is not fully with Terai (2023), which reported strong evidence for color simulation in L1 with sentence-context.
+
+    - very weak Stroop effect in with-sentence task in L1
+
+- These results suggest that typical color information may be activated even in the absence of a sentence context. 
+
 
 ## Hypothesis 2
-- The results suggested that L2 proficiency influenced the magnitude of the Stroop effect: learners with higher proficiency tended to show a larger Stroop effect than learners with lower proficiency in L2 tasks, regardless of task type. However, these interaction effects should be interpreted with caution because their credible intervals included zero and their pd values were below 97.5%, suggesting the weak evidence for them.
+
+::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
+〇 The magnitude of the Stroop effect will be modulated by L2 proficiency during L2 task performance.
+::: 
+
+- Learners with higher proficiency tended to show a larger Stroop effect than learners with lower proficiency in L2 tasks, regardless of task type.
+
+- Interestingly, lower proficiency test takers show larger Stroop effect in L1 than higher proficiency learners regardless of task types.
+
+# Conclusion
+
+## 
 
 # References
