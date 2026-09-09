@@ -34,10 +34,9 @@ title-slide-attributes:
 ## Embodied Cognition Approach
 - Previous studies have shown that readers rely on both linguistic and non-linguistic information, such as object shape and color, during language processing (Barsalou, 2008).
 
-## Activation of Color Information
 ### Connell and Lynott (2009, *Psychonomic Bulletin & Review*)
 
-- Activation of Object color information
+- Activation of Object color information (e.g., *bear* = BROWN)
 
 - Semantic Stroop task
   1. Read a sentence (e.g., *Joe was excited to see a bear in the woods.*)
@@ -47,7 +46,21 @@ title-slide-attributes:
 ## Stroop Effect
 ### Receiving inconsistent information causes inhibition.
 
-- The presence of the Stroop effect is evidence of color activation. 
+<center>
+<span style="font-size: 700%; color: blue;">Red </span>
+<span style="font-size: 700%; color: red;"> Blue</span>
+</center>
+
+## Stroop Effect
+
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "80%"
+knitr::include_graphics("fig/stroop.png")
+```
+
+- The presence of the Stroop effect is evidence of color activation
 
 ## Connell and Lynott (2009)
 
@@ -70,12 +83,6 @@ title-slide-attributes:
 
 - Sentence (*Joe was excited to see a bear in the woods*): 🐻
 
-```{r}
-#| fig-align: center
-#| echo: false
-#| out.width: "80%"
-knitr::include_graphics("fig/stroop.png")
-```
 
 ## Connell and Lynott (2009)
 - There were no significant differences between the atypical and unrelated conditions.
@@ -90,51 +97,47 @@ knitr::include_graphics("fig/stroop.png")
 
 ## Terai (2023, *Doctoral thesis*)
 
-- Replicated Connell and Lynott (2009) in both the first and second language
+- Replicated Connell and Lynott (2009) in two native speakers
 
-- Interaction of second language proficiency and typicality (in the second language)
+    - First language: English speakers, Japanese speakers
 
-- 図を挿入?
+- Regardless of sentence typicality (e.g., *bear in the woods / at the North Pole*)
 
 ::: {.callout-note}
-Second language proficiency was operationalized using vocabulary size scores.
+L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 :::
 
-- \* L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
+## Terai (2023, *Doctoral thesis*)
+
+- Japanese speakers performed in English
+
+    - Interaction of second language proficiency and typicality 
+
+- Higher proficiency learners showed larger Stroop effects
 
 ## Terai (2026, *Applied Psycholinguistics*)
 
-* Responses to typical colors were faster regardless of the type of sentence presented
+-  Is typical color information activated even without presenting a sentence?
 
-  * Is typical color information activated even without a sentence?
+  - What happens when differences in the processing speed of individual words are taken into account?
 
-  * What happens when differences in the processing speed of individual words are taken into account?
-
-## Activation of Color Information (Follow-up Study)
-
-* Responses to typical colors were faster regardless of the type of sentence presented
-
-  * Is typical color information activated even without a sentence?
-
-  * What is the effect of word-processing speed?
-
-  * What happens if language is manipulated within participants?
-
-## Activation of Color Information (Follow-up Study)
+## Terai (2026, *Applied Psycholinguistics*)
 
 ::: {layout-ncol=2}
 ![](fig/sentence_experiment.png)
 
-![](fig/vocab_experiment.png)
+![](fig/vocab_experment_red.png)
 :::
 
-## Activation of Color Information (Follow-up Study)
+## Terai (2026, *Applied Psycholinguistics*)
 
-* Participants completed the semantic Stroop task in both Japanese and English
+- Participants completed the semantic Stroop task in both Japanese and English
 
-* They also completed a lexical decision task to measure their response times to the words used in the Stroop task
+    - Language was a within-subject design
 
-## Activation of Color Information (Follow-up Study)
+- They also completed a lexical decision task to measure their response times to the words used in the Stroop task
+
+## Terai (2026, *Applied Psycholinguistics*)
 
 :::: {.columns}
 
@@ -144,22 +147,21 @@ Second language proficiency was operationalized using vocabulary size scores.
 
 ::: {.column width="50%"}
 
-* No Stroop effect was observed
+- No Stroop effect was observed in L1 (JPN)
 
-  * Color information may not always be activated
+- The magnitude of Stroop effect was weak in L2 (ENG)
+    -  In the lexical decision task, mean response times were faster in Japanese, whereas in the Stroop task, responses were faster in English
 
-* In the lexical decision task, mean response times were faster in Japanese, whereas in the Stroop task, responses were faster in English
+- Color information may not always be activated
 :::
 
 ::::
 
 ## Summary of the Previous Studies
 
-- Even a language learned in a foreign-language environment can activate color information during language processing in a way similar to the L1
+- A certain level of L2 proficiency may be necessary for L2 processing
 
-  - A certain level of L2 proficiency may be necessary
-
-  - Color information is not always activated (Weak Embodiment)
+- Color information is not always activated (Weak Embodiment)
 
     - Presence of Context may elicit stronger Stroop effect?
 
@@ -177,8 +179,15 @@ Second language proficiency was operationalized using vocabulary size scores.
 
 ## Participants
 - Twenty-four Japanese learners of English were recruited at a Japanese university. 
+- English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). 
 
-- English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). The vocabulary test scores indicated that participants’ English proficiency ranged from low to intermediate, which was comparable to the participants in Terai (2026)
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "90%"
+knitr::include_graphics("fig/Fig_prof.png")
+```
+
 
 ## Procedures
 
@@ -199,13 +208,17 @@ Second language proficiency was operationalized using vocabulary size scores.
 - The Stroop word was inserted in black font before Stroop phase
 
     - By adding this phase, the present study made the two tasks more comparable: the critical difference between the tasks was whether the prior presentation consisted of a sentence or a single word.
-- incert 画像
+
+
+## Difference of the task
+
+![](fig/thisstudy.png)
 
 # Analysis
 
 ## Data Exclusion
 
-- All data from participants whose overall accuracy in the Stroop task (separately for each language) was below 80% (confirmed at both the sentence and word levels).
+- All data from participants whose overall accuracy in the Stroop task was below 80%.
 
 - Trials whose reaction times deviated from the median by more than + 3 median absolute deviations.
 
@@ -216,7 +229,17 @@ Second language proficiency was operationalized using vocabulary size scores.
 ## Bayesian mixedeffects regression models
 - Dependent variable: Reaction times in the Stroop task
 
-- Independent variables:  color typicality (typical vs. unrelated), task type (sentence-context vs. word-only), task language (L1 vs. L2), scaled vocabulary size scores, and their interactions. 
+- Independent variables: 
+
+    - Word-color typicality (typical vs. unrelated)
+    
+    - Task type (sentence-context vs. word-only)
+    
+    - Task language (L1 vs. L2)
+    
+    - scaled vocabulary size scores
+    
+    - Interactions of the above 
 
 - Random intercepts and random slopes: participants- and experimental items-levels
 
@@ -237,7 +260,7 @@ knitr::include_graphics("fig/FigA.png")
 
 ## Hypothesis 1
 
-- contrasts of the estimated marginal means showed that the predicted medians were generally faster in the typical color condition than in the unrelated color condition. 
+- The predicted medians were generally faster in the typical color condition than in the unrelated color condition. 
 
 
 - Stroop effects tend to be larger in L1
@@ -306,7 +329,5 @@ Reaction times were faster for words presented in typical colors than in unrelat
 - Interestingly, lower proficiency test takers show larger Stroop effect in L1 than higher proficiency learners regardless of task types.
 
 # Conclusion
-
-## 
 
 # References
