@@ -31,6 +31,8 @@ title-slide-attributes:
 
 # Background
 
+## この研究の意義を追加したい
+
 ## Embodied Cognition Approach
 - Previous studies have shown that readers rely on both linguistic and non-linguistic information, such as object shape and color, during language processing (Barsalou, 2008).
 
