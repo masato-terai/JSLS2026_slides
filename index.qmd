@@ -65,7 +65,7 @@ knitr::include_graphics("fig/stroop.png")
 
 - The presence of the Stroop effect is evidence of color activation
 
-## Connell and Lynott (2009)
+## Connell and Lynott (2009, *Psychonomic Bulletin & Review*)
 
 - Two types of sentences
 
@@ -81,29 +81,16 @@ knitr::include_graphics("fig/stroop.png")
 
   - unrelated color: *bear* in Green
 
-## Connell and Lynott (2009)
+## Terai (2023, *Doctoral thesis*)
+- First language: English speakers, Japanese speakers.
 - Reaction times were faster when the indicated color matched the font color, compared to when they mismatched.
-
-- Sentence (*Joe was excited to see a bear in the woods*): 🐻
-
-## Connell and Lynott (2009)
-- There were no significant differences between the atypical and unrelated conditions.
-
-  - Readers activated only the typical color of an object.
+- Readers activated only the typical color of an object.
   
     - *Joe was excited to see a bear in the woods*: 🐻
 
     - *Joe was excited to see a bear at the North Pole*: 🐻
 
 - There was no evidence of atypical color activation.
-
-## Terai (2023, *Doctoral thesis*)
-
-- Replicated Connell and Lynott (2009) in two native speakers
-
-    - First language: English speakers, Japanese speakers
-
-- Regardless of sentence typicality (e.g., *bear in the woods / at the North Pole*)
 
 ::: {.callout-note}
 L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
@@ -120,8 +107,6 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 ## Terai (2026, *Applied Psycholinguistics*)
 
 -  Is typical color information activated even without presenting a sentence?
-
-  - What happens when differences in the processing speed of individual words are taken into account?
 
 ## Terai (2026, *Applied Psycholinguistics*)
 
@@ -152,20 +137,20 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 - No Stroop effect was observed in L1 (JPN)
 
 - The magnitude of Stroop effect was weak in L2 (ENG)
-    -  In the lexical decision task, mean response times were faster in Japanese, whereas in the Stroop task, responses were faster in English
 
-- Color information may not always be activated
+  - Color information may not always be activated
 :::
 
 ::::
 
 ## Summary of the Previous Studies
 
-- A certain level of L2 proficiency may be necessary for L2 processing
-
 - Color information is not always activated (Weak Embodiment)
 
     - Presence of Context may elicit stronger Stroop effect?
+
+- A certain level of L2 proficiency may be necessary for L2 processing
+
 
 ## Toward the Study
 
@@ -175,12 +160,19 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 
 ## Research Hypotheses
 
-- (1) Reaction times will be faster for words presented in typical colors than in unrelated colors, particularly when a sentence is presented immediately before the Stroop task, and in their L1 (JPN)
+- (1) Reaction times will be faster for words presented in typical colors than in unrelated colors.
+
+  - Sentence (L1) > Word (L1) > Sentence (L2) > Word (L2)
 
 - (2) The magnitude of the Stroop effect will be modulated by L2 proficiency during L2 task performance.
 
+  - Higher L2 proficiency > Lower
+
 ## Participants
-- Twenty-four Japanese learners of English were recruited at a Japanese university. 
+- 24 Japanese learners of English were recruited at a Japanese university. 
+
+  - The university is identical to the one in Terai (2026)
+
 - English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). 
 
   - low-level English proficiency (*M* = 2223, Range = 250--4913)
@@ -195,22 +187,14 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 
     - e.g., Participant B: with-sentence (Jpn), word-only (Eng)
 
-## Difference of the task
-
-- To reduce the number of trials, atypical color conditions were eliminated
-
-    typical vs. unrelated
-
+## Difference of the Task (1)
 - The Stroop word was inserted in black font before Stroop phase
 
     - By adding this phase, the present study made the two tasks more comparable: the critical difference between the tasks was whether the prior presentation consisted of a sentence or a single word.
 
-
-## Difference of the task
-
 ![](fig/thisstudy.png)
 
-# Analysis
+<!-- # Analysis
 
 ## Data Exclusion
 
@@ -237,7 +221,13 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
     
     - Interactions of the above 
 
-- Random intercepts and random slopes: participants- and experimental items-levels
+- Random intercepts and random slopes: participants- and experimental items-levels -->
+
+## Difference of the Task (2)
+- To reduce the number of trials, atypical color conditions were eliminated
+
+    typical vs. unrelated
+
 
 # Results
 
@@ -280,14 +270,6 @@ Posterior distributions includes zero in 95% Crl.
 knitr::include_graphics("fig/FigB.png")
 ```
 
-## Comparison with (Terai, 2023, *Doctoral Thesis*)
-
-::: {layout-ncol=2}
-![](fig/sentence_experiment.png)
-
-![](fig/vocab_experment_red.png)
-:::
-
 # Discussion
 ## Hypothesis 1
 ::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
@@ -325,14 +307,16 @@ knitr::include_graphics("fig/FigB.png")
 
   - Consistent with Terai (2023)
 
-# Conclusion
+## Conclusion
 - Readers are likely to activate typical color of the inferred object without reading color words (e.g., red, blue, green).
 
 - In L2 processing, only higher L2 proficiency learners show activation of colors.
 
-# References
+## References (1)
 - Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*(1), 617–645. [https://doi.org/10.1146/annurev.psych.59.103006.093639](https://doi.org/10.1146/annurev.psych.59.103006.093639)
 - Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*(3), 573–577. [https://doi.org/10.3758/PBR.16.3.573](https://doi.org/10.3758/PBR.16.3.573)
+
+## References (2)
 - Meara, P., & Miralpeix, I. (2016). *Tools for researching vocabulary*. Multilingual Matters. [https://doi.org/10.21832/9781783096473](https://doi.org/10.21832/9781783096473)
 - Terai M. (2023). *Activation of color information in second language comprehension* [Doctoral Dissertation,
 Nagoya University]. NAGOYA Repository. [https://nagoya.repo.nii.ac.jp/records/2005609](https://nagoya.repo.nii.ac.jp/records/2005609)
