@@ -229,7 +229,7 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
     typical vs. unrelated
 
 
-# Results
+# Results & Discussion
 
 ## Hypothesis 1
 
@@ -259,18 +259,6 @@ knitr::include_graphics("fig/FigC.png")
 Posterior distributions includes zero in 95% Crl.
 :::
 
-## Hypothesis 2
-
-- Stroop effects tend to be larger as the test takers' vocabulary size increases.
-
-```{r}
-#| fig-align: center
-#| echo: false
-#| out.width: "90%"
-knitr::include_graphics("fig/FigB.png")
-```
-
-# Discussion
 ## Hypothesis 1
 ::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
 🔺 Reaction times were faster for words presented in typical colors than in unrelated colors, particularly when a sentence is presented immediately before the Stroop task,and in their L1 (JPN)
@@ -295,6 +283,10 @@ knitr::include_graphics("fig/FigB.png")
 - Presenting sentences does not necessarily facilitate color activation
 
   - Typical color information may be activated even in word-level.
+
+
+## Hypothesis 2
+![](fig/FigB.png)
 
 
 ## Hypothesis 2
