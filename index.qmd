@@ -161,13 +161,20 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
 
 - A certain level of L2 proficiency may be necessary for color activation in L2 processing.
 
+# The Study
+
 ## Toward the Present Study
 
 - Did sentence context elicit a larger Stroop effect than no sentence context?
 
   - Experiment type (Sentence vs. Vocabulary-only) was manipulated within subjects.
 
-# The Study
+## Difference Between the Tasks
+- The Stroop word was presented in black font before the Stroop phase
+
+    - This made the two tasks more comparable: the main difference was whether participants saw a sentence or a single word beforehand.
+
+![](fig/thisstudy.png)
 
 ## Research Hypotheses
 
@@ -184,7 +191,7 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
 
 ![](fig/yesnotest.png)
 
-## Procedures
+## Experiment
 
 - Experiment type and task language were both manipulated within subjects.
 
@@ -192,12 +199,9 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
 
     - e.g., Participant B: Sentence (JPN), vocabulary-only (ENG)
 
-## Difference Between the Tasks
-- The Stroop word was presented in black font before the Stroop phase
+- To reduce the number of trials, atypical color conditions were eliminated.
 
-    - This made the two tasks more comparable: the main difference was whether participants saw a sentence or a single word beforehand.
-
-![](fig/thisstudy.png)
+  - typical vs. unrelated
 
 <!-- # Analysis
 
@@ -227,15 +231,6 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
     - Interactions of the above 
 
 - Random intercepts and random slopes: participants- and experimental items-levels -->
-
-## Difference Between the Tasks
-- To reduce the number of trials, atypical color conditions were eliminated.
-
-  - typical vs. unrelated
-
-  - ~~atypical vs. unrelated~~
-
-  - ~~typical vs. atypical~~
 
 # Results & Discussion
 
