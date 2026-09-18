@@ -2,11 +2,11 @@
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=masato-terai.JSLS2026_slides)
 
 <h2>QR code for this website</h2>
-<img src="qrcode.png" alt="QR code" width="200">
+<img src="fig/qrcode.png" alt="QR code" width="200">
 
 ## Access to the slides with the following link
 - You can access the slides on any device, including smartphones, laptops, iPads, and so on.
-[Click this link](https://masato-terai.github.io/Workshop_SappoRoR/#/title-slide)
+[Click this link](https://masato-terai.github.io/JSLS2026_slides/#/title-slide)
 
 **Author Information:** 
 - Masato Terai (Nagoya Gakuin University, Japan)
