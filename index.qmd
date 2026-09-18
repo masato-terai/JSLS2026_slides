@@ -126,10 +126,6 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
 
   - Color information may not always be activated. 
 
-::: callout-note
-Yes / No → When
-:::
-
 ## Terai (2026, *Applied Psycholinguistics*)
 
 - Language was manipulated within subjects.
