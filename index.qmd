@@ -24,16 +24,22 @@ format:
 title-slide-attributes:
   data-background-image: fig/title_image.jpg
   data-background-size: cover
-  data-background-opacity: "0.15"
+  data-background-opacity: "0.2"
 ---
 
 # Background
 
-
 ## Embodied Cognition Approach
-- Readers rely on both linguistic and non-linguistic information, such as object shape and color, during language processing (Barsalou, 2008).
+- Readers rely on both linguistic and non-linguistic information during language processing (e.g., Barsalou, 2008).
 
-## Connell and Lynott (2009, *Psychonomic Bulletin & Review*)
+```{r}
+#| fig-align: center
+#| echo: false
+#| out.width: "80%"
+knitr::include_graphics("fig/embodiment.png")
+```
+
+## Terai (2023, *Doctoral thesis*)
 
 - Activation of Object color information (e.g., *bear* = BROWN)
 
@@ -65,7 +71,7 @@ knitr::include_graphics("fig/stroop.png")
 
 - The presence of the Stroop effect is evidence of color activation
 
-## Connell and Lynott (2009, *Psychonomic Bulletin & Review*)
+## Terai (2023, *Doctoral thesis*)
 
 - Two types of sentences
 
@@ -93,7 +99,7 @@ knitr::include_graphics("fig/stroop.png")
 - There was no evidence of atypical color activation.
 
 ::: {.callout-note}
-L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
+L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)](https://link.springer.com/article/10.1007/s10936-026-10310-4)
 :::
 
 ## Terai (2023, *Doctoral thesis*)
@@ -156,36 +162,32 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 
 - Did presence of context elicite larger Stroop effects than without presenting sentences?
 
+  - Experiment Type (Sentence- / Without-Sentence) was within-subject factor
+
 # The Study
 
 ## Research Hypotheses
 
-- (1) Reaction times will be faster for words presented in typical colors than in unrelated colors.
+1. The Stroop effect will be smaller in the word-only Stroop task.
 
-  - Sentence (L1) > Word (L1) > Sentence (L2) > Word (L2)
-
-- (2) The magnitude of the Stroop effect will be modulated by L2 proficiency during L2 task performance.
-
-  - Higher L2 proficiency > Lower
+2. The Stroop effect will be larger for learners with higher L2 proficiency.
 
 ## Participants
 - 24 Japanese learners of English were recruited at a Japanese university. 
 
-  - The university is identical to the one in Terai (2026)
+- English proficiency: Scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). 
 
-- English proficiency: scores of a yes-no vocabulary size test (Meara & Miralpeix, 2015). 
+  - Relatively low-level English proficiency (*M* = 2223, Range = 250--4913)
 
-  - low-level English proficiency (*M* = 2223, Range = 250--4913)
+![](fig/yesnotest.png)
 
 ## Procedures
 
-- Each participants completed both a with-sentence and word-only Stroop task.
+- Experiment Type and Language of the task was also withn-subject design.
 
-- Language of the task was also withn-subject design
+    - e.g., Participant A: with-sentence (ENG), word-only (JPN)
 
-    - e.g., Participant A: with-sentence (Eng), word-only (Jpn)
-
-    - e.g., Participant B: with-sentence (Jpn), word-only (Eng)
+    - e.g., Participant B: with-sentence (JPN), word-only (ENG)
 
 ## Difference of the Task (1)
 - The Stroop word was inserted in black font before Stroop phase
@@ -226,16 +228,16 @@ L1 English: Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)
 ## Difference of the Task (2)
 - To reduce the number of trials, atypical color conditions were eliminated
 
-    typical vs. unrelated
+  - typical vs. unrelated
+
+  - ~~atypical vs. unrelated~~
+
+  - ~~typical vs. atypical~~
 
 
 # Results & Discussion
 
 ## Hypothesis 1
-
-- Regardless of Language and Task Type, typical colors elicited faster RT: Stroop Effects 
-
-- Regardless of task language and word typicality, reaction times were faster in word-level Stroop task.
 
 ```{r}
 #| fig-align: center
@@ -245,8 +247,6 @@ knitr::include_graphics("fig/FigA.png")
 ```
 
 ## Hypothesis 1
-
-- Stroop effects tend to be larger in L2 (EN)
 
 ```{r}
 #| fig-align: center
@@ -261,30 +261,17 @@ Posterior distributions includes zero in 95% Crl.
 
 ## Hypothesis 1
 ::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
-🔺 Reaction times were faster for words presented in typical colors than in unrelated colors, particularly when a sentence is presented immediately before the Stroop task,and in their L1 (JPN)
+✖ The Stroop effect will be smaller in the word-only Stroop task.
 :::
 
-## Hypothesis 1
+- There was no large difference of Stroop effect of sentence- and word-only Stroop task
 
-::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
-⭕ Reaction times were faster for words presented in typical colors than in unrelated colors, ~~particularly when a sentence is presented immediately before the Stroop task,and in their L1 (JPN)~~
-:::
-
-- There was Stroop effect in word-only task in L1
-
-  - Prior presentation of words may have facilitate semantic processing compared with a task without such a presentation phase. 
- 
-- The Stroop effect was larger in L2 than in L1 in word-only Stroop task. 
-    
-    - Participants may have focused more strongly on reading the words in their L2, a language in which they were less proficient. This may have led to stronger activation of the color.
-
-## Continued
-
-- Presenting sentences does not necessarily facilitate color activation
+  - Presenting sentences does not necessarily facilitate color activation
 
   - Typical color information may be activated even in word-level.
-
-
+  
+- Prior presentation of words may have facilitate semantic processing compared with a task without such a presentation phase. 
+ 
 ## Hypothesis 2
 ![](fig/FigB.png)
 
@@ -292,7 +279,7 @@ Posterior distributions includes zero in 95% Crl.
 ## Hypothesis 2
 
 ::: {style="background-color: #cde5f5; border: 1px solid steelblue; padding: 10px; border-radius: 6px;"}
-⭕ The magnitude of the Stroop effect will be modulated by L2 proficiency during L2 task performance.
+⭕ The Stroop effect will be larger for learners with higher L2 proficiency.
 ::: 
 
 - Learners with higher proficiency tended to show a larger Stroop effect than learners with lower proficiency in L2 tasks, regardless of task type.
@@ -304,12 +291,12 @@ Posterior distributions includes zero in 95% Crl.
 
 - In L2 processing, only higher L2 proficiency learners show activation of colors.
 
-## References (1)
+## References
 - Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*(1), 617–645. [https://doi.org/10.1146/annurev.psych.59.103006.093639](https://doi.org/10.1146/annurev.psych.59.103006.093639)
-- Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*(3), 573–577. [https://doi.org/10.3758/PBR.16.3.573](https://doi.org/10.3758/PBR.16.3.573)
 
-## References (2)
 - Meara, P., & Miralpeix, I. (2016). *Tools for researching vocabulary*. Multilingual Matters. [https://doi.org/10.21832/9781783096473](https://doi.org/10.21832/9781783096473)
+
 - Terai M. (2023). *Activation of color information in second language comprehension* [Doctoral Dissertation,
 Nagoya University]. NAGOYA Repository. [https://nagoya.repo.nii.ac.jp/records/2005609](https://nagoya.repo.nii.ac.jp/records/2005609)
+
 - Terai, M. (2026). Color information activation in first and second language word processing. *Applied Psycholinguistics, 47*, e41. [https://doi.org/10.1017/S0142716426100824](https://doi.org/10.1017/S0142716426100824)
