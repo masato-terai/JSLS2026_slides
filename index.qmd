@@ -30,7 +30,7 @@ title-slide-attributes:
 
 # Background
 
-## Embodied Cognition Approach
+## Grounded (Embodied) Cognition Approach
 - Readers rely on both linguistic and non-linguistic information during language processing (e.g., Barsalou, 2008).
 
 ```{r}
@@ -88,16 +88,23 @@ knitr::include_graphics("fig/stroop.png")
 
 - Three font colors
 
-  - typical color: *bear* in Brown
+  - typical color: <font color="brown">***bear***</font>
   
-  - atypical color: *bear* in White
+  - atypical color: <span style="color: white; background-color: grey;"><strong>*bear*</strong></span>
 
-  - unrelated color: *bear* in Green
+  - unrelated color: <font color="green">***bear***</font>
 
+## Terai (2023, *Doctoral thesis*)
+
+- 15 concrete nouns
+
+  - apple, ball, bear, cake, chameleon, cloud, horse,
+kiwi, leaf, onion, plum, popcorn, steak, strawberry, and tomato
 
 ## Terai (2023, *Doctoral thesis*)
 - English native speakers, Japanese native speakers.
 - Reaction times were faster when the typical color matched the font color than when they mismatched.
+
 - Readers activated only the typical color of an object.
   
     - *Joe was excited to see a bear in the woods*: 🐻
@@ -107,7 +114,7 @@ knitr::include_graphics("fig/stroop.png")
 - No evidence was found for the activation of atypical colors.
 
 ::: {.callout-note}
-L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)](https://link.springer.com/article/10.1007/s10936-026-10310-4)
+L1 English data : [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*)](https://link.springer.com/article/10.1007/s10936-026-10310-4)
 :::
 
 ## Terai (2023, *Doctoral thesis*)
@@ -214,8 +221,9 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
 - Reaction-time data shorter than 200 ms.
 
 - incorrect response
+ -->
 
-## Bayesian mixedeffects regression models
+## Bayesian Regression models
 - Dependent variable: Reaction times in the Stroop task
 
 - Independent variables: 
@@ -226,11 +234,11 @@ L1 English: [Terai & Yamashita (in Print, *Journal of Psycholinguistic Research*
     
     - Task language (L1 vs. L2)
     
-    - scaled vocabulary size scores
+    - Scaled vocabulary size scores
     
     - Interactions of the above 
 
-- Random intercepts and random slopes: participants- and experimental items-levels -->
+- Random intercepts and random slopes: participants- and experimental items-levels
 
 # Results & Discussion
 
