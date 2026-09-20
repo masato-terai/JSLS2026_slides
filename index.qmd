@@ -54,8 +54,8 @@ knitr::include_graphics("fig/embodiment.png")
 <span style="font-size: 700%; color: blue;">Red </span>
 </center>
 <center>
-<span style="font-size: 700%; color: blue;"> Blue</span>
-<span style="font-size: 700%; color: red;"> Blue</span>
+<span style="font-size: 700%; color: blue;">赤  </span>
+<span style="font-size: 700%; color: red;"> 赤</span>
 </center>
 
 ## Stroop Effect
@@ -74,8 +74,8 @@ knitr::include_graphics("fig/stroop.png")
 
 ::: {.incremental}
   1. Read a sentence (e.g., *Joe was excited to see a bear in the woods.*)
-  2. A keyword is presented in color ( <font color="brown">**bear**</font> )
-  3. Answer the color of the font
+  2. A keyword is presented in color ( <font color="brown">***bear***</font> )
+  3. Answer the color of the font by pressing keys
 :::
 
 ## Terai (2023, *Doctoral thesis*)
@@ -85,6 +85,10 @@ knitr::include_graphics("fig/stroop.png")
   - e.g., *Joe was excited to see a bear in the woods*: **brown bear**
 
   - e.g., *Joe was excited to see a bear at the North Pole*: **polar bear**
+
+::: callout-important
+No color words (e.g., red, blue) were used in the sentences.
+:::
 
 - Three font colors
 
@@ -101,9 +105,9 @@ knitr::include_graphics("fig/stroop.png")
   - apple, ball, bear, cake, chameleon, cloud, horse,
 kiwi, leaf, onion, plum, popcorn, steak, strawberry, and tomato
 
-## Terai (2023, *Doctoral thesis*)
 - English native speakers, Japanese native speakers.
-- Reaction times were faster when the typical color matched the font color than when they mismatched.
+
+## Terai (2023, *Doctoral thesis*)
 
 - Readers activated only the typical color of an object.
   
@@ -125,7 +129,7 @@ L1 English data : [Terai & Yamashita (in Print, *Journal of Psycholinguistic Res
 
 - Higher proficiency learners showed larger Stroop effects
 
-## Terai (2026, *Applied Psycholinguistics*)
+## A Further Question
 
 - Is typical color information activated even without a sentence context?
 
@@ -311,3 +315,6 @@ The 95% credible interval of the posterior distribution includes zero.
 Nagoya University]. NAGOYA Repository. [https://nagoya.repo.nii.ac.jp/records/2005609](https://nagoya.repo.nii.ac.jp/records/2005609)
 
 - Terai, M. (2026). Color information activation in first and second language word processing. *Applied Psycholinguistics, 47*, e41. [https://doi.org/10.1017/S0142716426100824](https://doi.org/10.1017/S0142716426100824)
+
+# Acknowledgements
+- This study was supported by JSPS KAKENHI Grant Number 24K16142.
