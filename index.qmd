@@ -23,14 +23,12 @@ format:
     chalkboard: 
       buttons: false
 title-slide-attributes:
-  data-background-image: fig/title_image.jpg
+  data-background-image: fig/background.png
   data-background-size: cover
   data-background-opacity: "0.2"
 ---
 
-# Background
-
-## Grounded (Embodied) Cognition Approach
+## Grounded Cognition Approach
 - Readers rely on both linguistic and non-linguistic information during language processing (e.g., Barsalou, 2008).
 
 ```{r}
@@ -53,10 +51,10 @@ knitr::include_graphics("fig/embodiment.png")
 <span style="font-size: 700%; color: red;">Red </span>
 <span style="font-size: 700%; color: blue;">Red </span>
 </center>
-<center>
+<!-- <center>
 <span style="font-size: 700%; color: blue;">赤  </span>
 <span style="font-size: 700%; color: red;"> 赤</span>
-</center>
+</center> -->
 
 ## Stroop Effect
 
@@ -181,9 +179,9 @@ L1 English data : [Terai & Yamashita (in Print, *Journal of Psycholinguistic Res
   - Experiment type (Sentence vs. Vocabulary-only) was manipulated within subjects.
 
 ## Difference Between the Tasks
-- The Stroop word was presented in black font before the Stroop phase
+- The Stroop word was presented in black font
 
-    - This made the two tasks more comparable: the main difference was whether participants saw a sentence or a single word beforehand.
+    - the main difference was whether participants saw a **sentence** or a **single** word beforehand.
 
 ![](fig/thisstudy.png)
 
@@ -304,13 +302,14 @@ The 95% credible interval of the posterior distribution includes zero.
 
 - In L2 processing, color activation appears to be stronger in learners with higher L2 proficiency.
 
-## References
+## References (1)
 - Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*(1), 617–645. [https://doi.org/10.1146/annurev.psych.59.103006.093639](https://doi.org/10.1146/annurev.psych.59.103006.093639)
 
 - Huettig, F., Guerra, E., & Helo, A. (2020). Towards understanding the task dependency of embodied language processing: The influence of colour during language vision interactions. *Journal of Cognition, 3*(1), 41, 1–19. [https://doi.org/10.5334/joc.135](https://doi.org/10.5334/joc.135)
 
 - Meara, P., & Miralpeix, I. (2016). *Tools for researching vocabulary*. Multilingual Matters. [https://doi.org/10.21832/9781783096473](https://doi.org/10.21832/9781783096473)
 
+## References (2)
 - Terai M. (2023). *Activation of color information in second language comprehension* [Doctoral Dissertation,
 Nagoya University]. NAGOYA Repository. [https://nagoya.repo.nii.ac.jp/records/2005609](https://nagoya.repo.nii.ac.jp/records/2005609)
 
