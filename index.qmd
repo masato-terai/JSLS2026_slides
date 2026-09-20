@@ -224,6 +224,12 @@ L1 English data : [Terai & Yamashita (in Print, *Journal of Psycholinguistic Res
  -->
 
 ## Bayesian Regression models
+
+- Compared statistical values (e.g., mean, median) of the designated conditions.
+
+  - No hypothesis testing  (e.g., p-value, Bayes Factor).
+
+<!-- 
 - Dependent variable: Reaction times in the Stroop task
 
 - Independent variables: 
@@ -238,7 +244,7 @@ L1 English data : [Terai & Yamashita (in Print, *Journal of Psycholinguistic Res
     
     - Interactions of the above 
 
-- Random intercepts and random slopes: participants- and experimental items-levels
+- Random intercepts and random slopes: participants- and experimental items-levels -->
 
 # Results & Discussion
 
